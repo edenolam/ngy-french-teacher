@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 <!--navbar-->
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -27,28 +27,24 @@
                 <li><a href="#">דף הבית</a></li>
                 <li><a href="#about">אודות</a></li>
                 <li><a href="#cours">מורה פרטי לצרפתית</a></li>
-<!--                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>-->
-<!--                    <ul class="dropdown-menu">-->
-<!--                        <li><a href="#section41">Section 4-1</a></li>-->
-<!--                        <li><a href="#section42">Section 4-2</a></li>-->
-<!--                    </ul>-->
-<!--                </li>-->
                 <li><a href="#avis">דעה</a></li>
                 <li><a href="#contact">צור קשר</a></li>
+                <li><a href="tel:00972528410065"><span class="glyphicon glyphicon-earphone"></span></a></li>
             </ul>
         </div>
     </div>
 </nav>
+
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
     <h3 class="margin"><b>מורה לצרפתית</b></h3>
-    <img src="img/angelique-profil.jpg" class="img-responsive img-circle margin" style="display:inline"
+    <img src="img/angelique-profil.jpg" class="img-responsive img-rounded margin" style="display:inline"
          alt="angelique-profil" width="300" height="300">
     <blockquote>
         <h3>התקדמו מהר יותר בצרפתית עם תמיכה מותאמת אישית</h3>
     </blockquote>
-
 </div>
+
 <!-- Second Container -->
 <div id="about" class="container-fluid bg-2 text-center">
     <div class="container">
@@ -90,7 +86,7 @@
     <div class="row">
         <div class="col-sm-4">
             <h3> שיעורים פרטיים</h3>
-            <p class="text-right">
+            <p class="text-right margin">
                 שיעורים פרטיים בבית או באינטרנט.
                 הפתרון האידיאלי לתמיכה אישית, גמישה ואפקטיבית בבית הספר.</p>
             <img src="img/student1.jpg" class="img-responsive margin img-rounded" style="width:100%" alt="student">
@@ -165,9 +161,13 @@
     <h3 class="margin"><b>צור קשר</b></h3>
     <div class="row">
         <div class="col-sm-6">
-            <iframe class="img-responsive margin"
-                    src="https://www.google.com/maps/embed?pb=!4v1569830301253!6m8!1m7!1sDMfLyno3g7M6n4xcOwhgGQ!2m2!1d32.7974527399186!2d34.98999118979911!3f45.676675648362554!4f4.22345697553861!5f0.7820865974627469"
-                    width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <a href="https://www.paypal.com/fr/webapps/mpp/home"><i class="fa fa-paypal fa-3x"></i></a>
+            <i class="fa fa-facebook fa-3x"></i>
+            <i class="fa fa-linkedin fa-3x"></i>
+            <a href="https://api.whatsapp.com/send?phone=00972528410065&text=Bonjour,%20pouvez%20vous%20me%20contacter%20pour%20des%20cours%20de%20francais%20Merci"><i
+                    class="fa fa-whatsapp fa-3x"></i></a>
+            <a href="tel:00972528410065"><i class="fa fa-phone fa-3x"></i></a>
+            <i class="fa fa-youtube-play fa-3x"> </i>
         </div>
         <div class="col-sm-6">
             <address>
@@ -181,17 +181,19 @@
                     </a>
                 </p>
             </address>
-
         </div>
     </div>
 </div>
 <!--frame map-->
 <div id="frameMap">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3353.7917561571353!2d34.987906415074626!3d32.7977804902338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151dbb0127c1a7ff%3A0x7de04af9eed76826!2sZe&#39;ev%20HaYam%20St%204%2C%20Haifa%2C%20Isra%C3%ABl!5e0!3m2!1sfr!2sfr!4v1569830518889!5m2!1sfr!2sfr"
-            width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            width="100%" height="300" style="border:0;" allowfullscreen=""></iframe>
 </div>
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center ">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br><br>
     <p>אתר זה נוצר על ידי סוכנות edenolam </p>
     <a href="https://www.paypal.com/fr/webapps/mpp/home"><i class="fa fa-paypal fa-3x"></i></a>
     <i class="fa fa-facebook fa-3x"></i>
